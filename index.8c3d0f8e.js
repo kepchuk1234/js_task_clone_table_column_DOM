@@ -1,0 +1,2 @@
+var t=document.querySelector("table"),e=t.rows,n=!0,r=!1,o=void 0;try{for(var l,a=e[Symbol.iterator]();!(n=(l=a.next()).done);n=!0){var c=l.value,d=0===c.sectionRowIndex?"th":"td",x=document.createElement(d),u=t.rows[c.rowIndex].cells[1],w=t.rows[c.rowIndex].cells[4],i=w.textContent;x.textContent=i,w.textContent=u.textContent,c.append(x)}}catch(t){r=!0,o=t}finally{try{n||null==a.return||a.return()}finally{if(r)throw o}}
+//# sourceMappingURL=index.8c3d0f8e.js.map
